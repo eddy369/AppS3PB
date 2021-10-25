@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppS3PB.viewDos">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblUsuario"/>
+            <Label x:Name="lblContrasena"/>
+
+            <Entry x:Name="txtUsuario"/>
+            <Entry x:Name="txtContrasena"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
