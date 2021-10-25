@@ -14,7 +14,7 @@ namespace AppS3PB
     {
         public viewDos(string usuario, string contrasena)
         {
-            //verificar GIT
+            //verificar GIT prueba 1 cambio
             InitializeComponent();
             //Envio de los label etiquetas
             lblUsuario.Text = usuario;
