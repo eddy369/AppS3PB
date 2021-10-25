@@ -22,6 +22,7 @@ namespace AppS3PB
             string contrasena = txtContrasena.Text;
             //acción navegar a ventana dos
             await Navigation.PushAsync(new viewDos(usuario, contrasena));
+            //prueba de sincronizar
         }
     }
 }
