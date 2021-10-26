@@ -5,12 +5,12 @@
 
     <StackLayout>
         <Frame BackgroundColor="Beige" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="Black" FontSize="18"/>
+            <Label Text="Navegación entre ventanas" HorizontalTextAlignment="Center" TextColor="Black" FontSize="28"/>
         </Frame>
 
-        <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario"/>
-        <Entry x:Name="txtContrasena" Placeholder="Ingrese la contrasena" IsPassword="True"/>
-        <Button x:Name="btnAbrir" Text="Abrir ventana 2" Clicked="btnAbrir_Clicked"/>
+        <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario" FontSize="22"/>
+        <Entry x:Name="txtContrasena" Placeholder="Ingrese la contrasena" IsPassword="True" FontSize="22"/>
+        <Button x:Name="btnAbrir" Text="Abrir ventana 2" Clicked="btnAbrir_Clicked" FontSize="22"/>
 
     </StackLayout>
 
